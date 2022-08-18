@@ -20,8 +20,11 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 " NERD Commenter
 Plug 'preservim/nerdcommenter'
-
-" (Plugged) END
+" Surround
+Plug 'tpope/vim-surround'
+" VIM Commentary
+Plug 'tpope/vim-commentary'
+"(Plugged) END
 call plug#end()
 
 
@@ -37,6 +40,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+set nobackup
 
 """""""""""""""""
 " Theming
@@ -49,11 +53,13 @@ colorscheme dracula
 """""""""""""""""
 
 " COC
-source ./scripts/coc.vim
+source ~/.config/nvim/scripts/coc.vim
 " NerdTree
-source ./scripts/nerdtree.vim
+source ~/.config/nvim/scripts/nerdtree.vim
 " Airline
-source ./scripts/airline.vim
+source ~/.config/nvim/scripts/airline.vim
+" Fuzzy Finder
+source ~/.config/nvim/scripts/fuzzyfinder.vim
 
 """""""""""""""""
 " General Keys
