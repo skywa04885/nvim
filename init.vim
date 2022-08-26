@@ -24,14 +24,19 @@ Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-surround'
 " VIM Commentary
 Plug 'tpope/vim-commentary'
+" Vim Devicons
+Plug 'ryanoasis/vim-devicons'
+" Vim Blade
+Plug 'jwalton512/vim-blade'
+" Emmet Vim
+Plug 'mattn/emmet-vim'
 "(Plugged) END
 call plug#end()
-
 
 """""""""""""""""
 " NeoVim
 """""""""""""""""
-
+set encoding=utf8
 set relativenumber
 set number
 set mouse=a
