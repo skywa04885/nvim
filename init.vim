@@ -51,7 +51,11 @@ set nobackup
 " Theming
 """""""""""""""""
 
+" Uses the darcula color theme.
 colorscheme dracula
+
+" Sets the background to transparant.
+hi Normal guibg=NONE ctermbg=NONE
 
 """""""""""""""""
 " Import Scripts
