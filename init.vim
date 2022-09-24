@@ -30,6 +30,12 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'jwalton512/vim-blade'
 " Emmet Vim
 Plug 'mattn/emmet-vim'
+" LaTeX
+Plug 'lervag/vimtex'
+" To-Do
+Plug 'aserebryakov/vim-todo-lists'
+" Startify
+Plug 'mhinz/vim-startify'
 "(Plugged) END
 call plug#end()
 
@@ -69,6 +75,8 @@ source ~/.config/nvim/scripts/nerdtree.vim
 source ~/.config/nvim/scripts/airline.vim
 " Fuzzy Finder
 source ~/.config/nvim/scripts/fuzzyfinder.vim
+" VimTex
+source ~/.config/nvim/scripts/vimtex.vim
 
 """""""""""""""""
 " General Keys
