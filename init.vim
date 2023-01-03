@@ -4,7 +4,9 @@
 call plug#begin()
 
 " Dracula theme
-Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'dracula/vim', { 'as': 'dracula' }
+" GruvBox Theme
+Plug 'morhetz/gruvbox'
 " NeoClide (Autocomplete)
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 " Vim Airline (bottom bar)
@@ -36,6 +38,8 @@ Plug 'lervag/vimtex'
 Plug 'aserebryakov/vim-todo-lists'
 " Startify
 Plug 'mhinz/vim-startify'
+" TagBar
+Plug 'preservim/tagbar'
 "(Plugged) END
 call plug#end()
 
@@ -58,7 +62,7 @@ set nobackup
 """""""""""""""""
 
 " Uses the darcula color theme.
-colorscheme dracula
+colorscheme gruvbox
 
 " Sets the background to transparant.
 hi Normal guibg=NONE ctermbg=NONE
@@ -88,3 +92,5 @@ nnoremap <silent> <C-Left> <c-w>h
 nnoremap <silent> <C-Up> <c-w>k
 nnoremap <silent> <C-Down> <c-w>j
 
+" Toggle TagBar
+nmap <F8> :TagbarToggle<CR>
